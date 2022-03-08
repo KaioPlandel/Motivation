@@ -43,7 +43,9 @@ class SplashActivity : AppCompatActivity() {
             Intent(this, MainActivity::class.java).also {
 
                 startActivity(it)
+
             }
+            finish()
         }
     }
 
@@ -56,7 +58,9 @@ class SplashActivity : AppCompatActivity() {
             Intent(this, MainActivity::class.java).also {
 
                 startActivity(it)
+
             }
+            finish()
         }
     }
 }
