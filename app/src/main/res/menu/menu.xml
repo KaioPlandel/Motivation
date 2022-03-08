@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item android:id="@+id/carregarMenu"
+        android:title="carregar"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_baseline_360_24"
+        />
+
+    <item android:id="@+id/bonecoMenu"
+    android:title="boneco"
+    app:showAsAction="ifRoom"
+    android:icon="@drawable/ic_baseline_emoji_emotions_24"
+    />
+
+    <item android:id="@+id/solMenu"
+        android:title="sol"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_baseline_wb_sunny_24"
+        />
+
+
+</menu>
